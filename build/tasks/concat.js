@@ -10,6 +10,14 @@ module.exports = function(grunt) {
     build: {
       src: ['src/delorean.js', 'dist/.tmp/delorean-requirements.js'],
       dest: 'dist/delorean.js'
+    },
+    webrequirements: {
+      src: ['dist/.tmp/delorean-requirements.js'],
+      dest: 'dist/requirements.js'
+    },
+    webdelorean: {
+      src: ['src/delorean.js'],
+      dest: 'dist/delorean.amd.js'
     }
   });
 

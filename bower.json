@@ -6,7 +6,10 @@
     "Fatih Kadir Akin <fka@fatihak.in>"
   ],
   "description": "Flux Architecture Framework",
-  "main": "dist/delorean.min.js",
+  "main": [
+    "dist/delorean.amd.js",
+    "dist/requirement.js"
+  ],
   "moduleType": [
     "node"
   ],
